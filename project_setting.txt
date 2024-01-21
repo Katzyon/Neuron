@@ -1,0 +1,19 @@
+my_project/
+│
+├── .venv/                # Virtual environment folder
+│
+├── src/                  # Source code directory (for Python scripts, modules, etc.)
+│   ├── script1.py
+│   ├── script2.py
+│   └── ...
+│
+├── data/                 # Data directory (optional, if your project deals with data)
+│   ├── datafile1.csv
+│   └── ...
+│
+├── notebooks/            # Jupyter notebooks (optional)
+│   ├── analysis.ipynb
+│   └── ...
+│
+├── requirements.txt      # Required Python packages
+└── README.md           
