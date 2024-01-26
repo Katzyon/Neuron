@@ -13,8 +13,8 @@ def create_groups(n = 100, m = 3, k = 20):
         remaining_numbers: A list of remaining numbers not assined to any group :-(.
     """
 
-    # Create a list from 1 to n
-    number_list = list(range(1, n + 1))
+    # Create a list from 0 to n - 1
+    number_list = list(range(0, n))
 
     # Initialize the list for groups and the list for remaining numbers
     groups = []
@@ -33,9 +33,9 @@ def create_groups(n = 100, m = 3, k = 20):
 
     return groups, remaining_numbers
 
-# Example usage
-n, m, k = map(int, input("Enter n, m, k separated by SPACES: ").split())
-groups, remaining = create_groups(n, m, k)
+# # Example usage
+# n, m, k = map(int, input("Enter n, m, k separated by SPACES: ").split())
+# groups, remaining = create_groups(n, m, k)
 
-print("Groups:", groups)
-print("Remaining numbers:", remaining)
+# print("Groups:", groups)
+# print("Remaining numbers:", remaining)
